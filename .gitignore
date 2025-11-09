@@ -1,0 +1,137 @@
+# -----------------------------
+# JetBrains / CLion project files
+# -----------------------------
+# Ignore all of .idea (safest). If you prefer to keep code styles/inspection profiles,
+# remove this and use the more granular rules below.
+.idea/
+
+# If you prefer granular ignore rules, replace the line above with the block below:
+#.idea/**/workspace.xml
+#.idea/**/tasks.xml
+#.idea/**/dictionaries
+#.idea/**/shelf
+#.idea/**/contentModel.xml
+#.idea/**/deployment.xml
+#.idea/**/usage.statistics.xml
+#.idea/**/httpRequests/
+#.idea/**/dataSources/
+#.idea/**/dataSources.local.xml
+#.idea/**/libraries/
+
+# -----------------------------
+# CLion / CMake build output
+# -----------------------------
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+_build/
+build/
+out/
+bin/
+lib/
+
+# Ninja
+build.ninja
+.ninja_deps
+.ninja_log
+.ninja_queue
+
+# -----------------------------
+# Compilers & linkers
+# -----------------------------
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Debugging & profiling
+*.dSYM/
+*.stackdump
+*.core
+core
+vgcore.*
+massif.out.*
+callgrind.out.*
+
+# Coverage & sanitizers
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+*.lsan.*
+*.asan.*
+*.tsan.*
+
+# -----------------------------
+# Package managers / dependencies
+# -----------------------------
+# Conan
+conanbuild/
+conaninfo.txt
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+installed/
+packages/
+buildtrees/
+downloads/
+
+# -----------------------------
+# Tools & caches
+# -----------------------------
+.ccache/
+.clangd/
+.clang-tidy-cache/
+*.cache
+
+# ctags / cscope
+tags
+TAGS
+cscope.*
+ncscope.*
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# Archives & temp
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.tmp
+*.swp
+*.swo
