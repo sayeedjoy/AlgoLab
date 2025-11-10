@@ -9,3 +9,4 @@ add_executable(AlgoLab
 
 add_executable(queue queue.cpp)
 add_executable(stack stack.cpp)
+add_executable(test test.cpp)
